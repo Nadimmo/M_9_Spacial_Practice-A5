@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="firstSecotion">
+        <h1>Budget <span id="budget">2500</span></h1>
+        <h1>Card <span id="card">0</span></h1>
+        <h1>Left <span id="left">6</span></h1>
+    </div>
+    <br><br><br><br>
+    <div class="main">
+        <div class="subMain">
+            <div class="parentContain">
+                <h4>Tamim Iqbal</h4>
+                <h4>Price: <span id="price">300</span></h4>
+                <h5>Category: <span id="category">Bat</span></h5>
+                <button class="btn">Add to Cart</button>
+            </div>
+            <div class="parentContain">
+                <h4>Shakib al Hasan</h4>
+                <h4>Price: <span id="price">300</span></h4>
+                <h5>Category: <span id="category">All</span></h5>
+                <button class="btn">Add to Cart</button>
+            </div>
+            <div class="parentContain">
+                <h4>Mushfikur</h4>
+                <h4>Price: <span id="price">300</span></h4>
+                <h5>Category: <span id="category">WK/Bat</span></h5>
+                <button class="btn">Add to Cart</button>
+            </div>
+            <div class="parentContain">
+                <h4>Masrafi</h4>
+                <h4>Price: <span id="price">300</span></h4>
+                <h5>Category: <span id="category">Boll</span></h5>
+                <button class="btn">Add to Cart</button>
+            </div>
+        </div>
+        <div class="subMain">
+            <div class="parentContain">
+                <h4>Mahmudullah</h4>
+                <h4>Price: <span id="price">300</span></h4>
+                <h5>Category: <span id="category">All</span></h5>
+                <button class="btn">Add to Cart</button>
+            </div>
+            <div class="parentContain">
+                <h4>Mostafizar</h4>
+                <h4>Price: <span id="price">300</span></h4>
+                <h5>Category: <span id="category">Boll</span></h5>
+                <button class="btn">Add to Cart</button>
+            </div>
+            <div class="parentContain">
+                <h4>Liton Das</h4>
+                <h4>Price: <span id="price">300</span></h4>
+                <h5>Category: <span id="category">Wk/Bat</span></h5>
+                <button class="btn">Add to Cart</button>
+            </div>
+            <div class="parentContain">
+                <h4>Miraz</h4>
+                <h4>Price: <span id="price">300</span></h4>
+                <h5>Category: <span id="category">All</span></h5>
+                <button class="btn">Add to Cart</button>
+            </div>
+        </div>
+        <div class="leftSection">
+            <div class="flex" >
+                <h1>Name</h1>
+                <h1>Price</h1>
+                <h1>Category</h1>
+            </div>
+            <div id="add-new-tag">
+
+            </div>
+            <hr>
+            <h3>Total : <span id="total">0</span></h3>
+            <hr>
+            <div>
+                <input type="text" placeholder=" Apply Coupon Code " id="coupon">
+                <button id="btn" class="btn" onclick="updateGrandTotal('btn')">Apply</button>
+            </div>
+            <hr>
+            <h3>Grand Total : <span id="grandtotal">0</span></h3>
+        </div>
+       
+    
+    </div>
+   
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
